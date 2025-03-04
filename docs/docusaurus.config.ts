@@ -1,21 +1,21 @@
-import type { Config } from '@docusaurus/types';
-import { themes as prismThemes } from 'prism-react-renderer';
-import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from "@docusaurus/types";
+import { themes as prismThemes } from "prism-react-renderer";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: 'Crypto Tracker Docs',
-  url: 'http://localhost:3000',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  title: "Crypto Tracker Docs",
+  url: "http://localhost:3000",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.ts'),
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.ts"),
         },
       } satisfies Preset.Options,
     ],
@@ -25,10 +25,10 @@ const config: Config = {
     navbar: {
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Docs",
         },
       ],
     },

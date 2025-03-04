@@ -1,12 +1,12 @@
-import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    'index',
-    'projectSetup',
-    'APIIntegration',
-    'stateManagement',
-    'challenges',
+    "index",
+    "projectSetup",
+    "APIIntegration",
+    "stateManagement",
+    "challenges",
   ],
 };
 
